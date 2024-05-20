@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test</title>
+    <link rel="stylesheet" href="./mockstyle.css">
+    <style>
+        .timer {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+    </style>
+</head>
+<body>
+    <div class="timer" id="timer">00:00:00</div>
+    <div class="quiz-container">
+        <h1>Mock Test</h1>
+        <div id="question-container">
+            <p id="question-text">Question 1:</p>
+            <ul id="choices"></ul>
+        </div>
+        <button id="prev-button">Previous</button>
+        <button id="next-button">Next</button>
+        <button id="submit-button" style="display: none;">Submit</button>
+        <p id="total-questions"></p>
+<p id="remaining-questions"></p>
+        <div id="result-container">
+            <div id="certificate-container">
+                <h2>Congratulations!</h2>
+                <p id="scor"></p>
+                <p>Here is your certificate:</p>
+                <img src="/img/certificate.png" alt="Certificate">
+            </div>
+        </div>
+       
+        
+    </div>
+    
+
+    <script src="./mockscript.js"></script>
+</body>
+</html>

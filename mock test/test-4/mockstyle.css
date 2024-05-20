@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    max-width: 70%;
+    margin: 10% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#question-container {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#choices {
+    list-style-type: none;
+    padding: 0;
+    font-size: 22px;
+}
+
+#choices li {
+    margin: 10px 0;
+}
+
+#prev-button, #next-button, #submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+#submit-button {
+    background-color: #28a745; /* Green color for the submit button */
+}
+
+#result-container {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#certificate-container {
+    display: none; /* Hidden by default */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the certificate text and image */
+#certificate-container h2 {
+    font-size: 24px;
+}
+
+#certificate-container p {
+    margin: 10px 0;
+}
+
+#certificate-container img {
+    max-width: 100%;
+}
